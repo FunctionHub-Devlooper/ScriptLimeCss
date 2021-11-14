@@ -1,0 +1,1622 @@
+/*
+    https://functionhub-devlooper.github.io/Home/
+    Function Hub {FHDEV!}
+    Yusuf Altundal - ScriptLimeCss
+    Date → 14.11.2021
+    Google Font (→)
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+/*
+    https://functionhub-devlooper.github.io/Home/
+    Function Hub {FHDEV!}
+    Yusuf Altundal - Css Lib
+    Date → 14.11.2021
+    Color UI (→)
+*/
+/*Button light Gray*/
+.button-color-light-gray{
+    background-color: #F3F4F6;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #F3F4F6;
+    border-right: 1px solid #F3F4F6;
+    border-top: 1px solid #F3F4F6;
+    border-bottom: 1px solid #F3F4F6;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-gray:hover{
+    background-color: #E5E7EB;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #f3f4f600;
+    border-right: 1px solid #f3f4f600;
+    border-top: 1px solid #f3f4f600;
+    border-bottom: 1px solid #f3f4f600;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-gray:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F9FAFB;
+}
+.button-color-light-gray:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F9FAFB;
+}
+.button-color-light-gray:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+  }
+/*Button light Red*/
+.button-color-light-red{
+    background-color: #FEE2E2;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FEE2E2;
+    border-right: 1px solid #FEE2E2;
+    border-top: 1px solid #FEE2E2;
+    border-bottom: 1px solid #FEE2E2;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-red:hover{
+    background-color: #FECACA;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FEE2E200;
+    border-right: 1px solid #FEE2E200;
+    border-top: 1px solid #FEE2E200;
+    border-bottom: 1px solid #FEE2E200;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-red:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FEF2F2;
+}
+.button-color-light-red:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F9FAFB;
+}
+.button-color-light-red:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Yellow*/
+.button-color-light-yellow{
+    background-color: #FFFBEB;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FFFBEB;
+    border-right: 1px solid #FFFBEB;
+    border-top: 1px solid #FFFBEB;
+    border-bottom: 1px solid #FFFBEB;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-yellow:hover{
+    background-color: #FEF3C7;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FFFBEB00;
+    border-right: 1px solid #FFFBEB00;
+    border-top: 1px solid #FFFBEB00;
+    border-bottom: 1px solid #FFFBEB00;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-yellow:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FFFBEB;
+}
+.button-color-light-yellow:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FFFBEB;
+}
+.button-color-light-yellow:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Green*/
+.button-color-light-green{
+    background-color: #D1FAE5;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #D1FAE5;
+    border-right: 1px solid #D1FAE5;
+    border-top: 1px solid #D1FAE5;
+    border-bottom: 1px solid #D1FAE5;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-green:hover{
+    background-color: #A7F3D0;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #A7F3D000;
+    border-right: 1px solid #A7F3D000;
+    border-top: 1px solid #A7F3D000;
+    border-bottom: 1px solid #A7F3D000;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-green:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #ECFDF5;
+}
+.button-color-light-green:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #ECFDF5;
+}
+.button-color-light-green:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Blue*/
+.button-color-light-blue{
+    background-color: #DBEAFE;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #DBEAFE;
+    border-right: 1px solid #DBEAFE;
+    border-top: 1px solid #DBEAFE;
+    border-bottom: 1px solid #DBEAFE;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-blue:hover{
+    background-color: #BFDBFE;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #BFDBFE00;
+    border-right: 1px solid #BFDBFE00;
+    border-top: 1px solid #BFDBFE00;
+    border-bottom: 1px solid #BFDBFE00;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-blue:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #EFF6FF;
+}
+.button-color-light-blue:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #EFF6FF;
+}
+.button-color-light-blue:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Purple*/
+.button-color-light-purple{
+    background-color: #EDE9FE;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #EDE9FE;
+    border-right: 1px solid #EDE9FE;
+    border-top: 1px solid #EDE9FE;
+    border-bottom: 1px solid #EDE9FE;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-purple:hover{
+    background-color: #DDD6FE;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #DDD6FE00;
+    border-right: 1px solid #DDD6FE00;
+    border-top: 1px solid #DDD6FE00;
+    border-bottom: 1px solid #DDD6FE00;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-purple:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F5F3FF;
+}
+.button-color-light-purple:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F5F3FF;
+}
+.button-color-light-purple:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light   pink*/
+.button-color-light-pink{
+    background-color: #FCE7F3;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FCE7F3;
+    border-right: 1px solid #FCE7F3;
+    border-top: 1px solid #FCE7F3;
+    border-bottom: 1px solid #FCE7F3;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-pink:hover{
+    background-color: #FBCFE8;
+    color: rgb(5, 5, 5);
+    border-left: 1px solid #FBCFE800;
+    border-right: 1px solid #FBCFE800;
+    border-top: 1px solid #FBCFE800;
+    border-bottom: 1px solid #FBCFE800;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-light-pink:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FDF2F8;
+}
+.button-color-light-pink:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FDF2F8;
+}
+.button-color-light-pink:focus{
+    display: inline-block;
+    animation: pulse;
+    animation-duration: 0.3s;
+}
+button::selection{
+    background-color: transparent;
+}
+/*Button dark Gray*/
+.button-color-dark-gray{
+    background-color: #6B7280;
+    color: white;
+    border-left: 1px solid #6B7280;
+    border-right: 1px solid #6B7280;
+    border-top: 1px solid #6B7280;
+    border-bottom: 1px solid #6B7280;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-gray:hover{
+    background-color: #4B5563;
+    color: white;
+    border-left: 1px solid #4B556300;
+    border-right: 1px solid #4B556300;
+    border-top: 1px solid #4B556300;
+    border-bottom: 1px solid #4B556300;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-gray:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #D1D5DB;
+}
+.button-color-dark-gray:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #D1D5DB;
+}
+.button-color-dark-gray:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+  }
+/*Button light Red*/
+.button-color-dark-red{
+    background-color: #F87171;
+    color: white;
+    border-left: 1px solid #F87171;
+    border-right: 1px solid #F87171;
+    border-top: 1px solid #F87171;
+    border-bottom: 1px solid #F87171;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-red:hover{
+    background-color: #EF4444;
+    color: white;
+    border-left: 1px solid #EF444400;
+    border-right: 1px solid #EF444400;
+    border-top: 1px solid #EF444400;
+    border-bottom: 1px solid #EF444400;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-red:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FCA5A5;
+}
+.button-color-dark-red:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FCA5A5;
+}
+.button-color-dark-red:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Yellow*/
+.button-color-dark-yellow{
+    background-color: #FBBF24;
+    color: white;
+    border-left: 1px solid #FBBF24;
+    border-right: 1px solid #FBBF24;
+    border-top: 1px solid #FBBF24;
+    border-bottom: 1px solid #FBBF24;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-yellow:hover{
+    background-color: #F59E0B;
+    color: white;
+    border-left: 1px solid #F59E0B00;
+    border-right: 1px solid #F59E0B00;
+    border-top: 1px solid #F59E0B00;
+    border-bottom: 1px solid #F59E0B00;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-yellow:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FCD34D;
+}
+.button-color-dark-yellow:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #FCD34D;
+}
+.button-color-dark-yellow:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Green*/
+.button-color-dark-green{
+    background-color: #34D399;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #34D399;
+    border-right: 1px solid #34D399;
+    border-top: 1px solid #34D399;
+    border-bottom: 1px solid #34D399;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-green:hover{
+    background-color: #10B981;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #10B98100;
+    border-right: 1px solid #10B98100;
+    border-top: 1px solid #10B98100;
+    border-bottom: 1px solid #10B98100;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-green:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #6EE7B7;
+}
+.button-color-dark-green:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #6EE7B7;
+}
+.button-color-dark-green:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Blue*/
+.button-color-dark-blue{
+    background-color: #60A5FA;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #60A5FA;
+    border-right: 1px solid #60A5FA;
+    border-top: 1px solid #60A5FA;
+    border-bottom: 1px solid #60A5FA;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-blue:hover{
+    background-color: #3B82F6;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #3B82F600;
+    border-right: 1px solid #3B82F600;
+    border-top: 1px solid #3B82F600;
+    border-bottom: 1px solid #3B82F600;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-blue:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #93C5FD;
+}
+.button-color-dark-blue:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #93C5FD;
+}
+.button-color-dark-blue:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light Purple*/
+.button-color-dark-purple{
+    background-color: #A78BFA;
+    color: white;
+    border-left: 1px solid #A78BFA;
+    border-right: 1px solid #A78BFA;
+    border-top: 1px solid #A78BFA;
+    border-bottom: 1px solid #A78BFA;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-purple:hover{
+    background-color: #8B5CF6;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #8B5CF600;
+    border-right: 1px solid #8B5CF600;
+    border-top: 1px solid #8B5CF600;
+    border-bottom: 1px solid #8B5CF600;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-purple:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #C4B5FD;
+}
+.button-color-dark-purple:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #C4B5FD;
+}
+.button-color-dark-purple:focus{
+    display: inline-block;
+    animation: pulse; 
+    animation-duration: 0.3s;
+}
+/*Button light   pink*/
+.button-color-dark-pink{
+    background-color: #F472B6;
+    color: rgb(255, 255, 255);
+    border-left: 1px solid #F472B6;
+    border-right: 1px solid #F472B6;
+    border-top: 1px solid #F472B6;
+    border-bottom: 1px solid #F472B6;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-pink:hover{
+    background-color: #EC4899;
+    color: white;
+    border-left: 1px solid #EC489900;
+    border-right: 1px solid #EC489900;
+    border-top: 1px solid #EC489900;
+    border-bottom: 1px solid #EC489900;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius: 0.4em;
+    line-height: 1.1;
+    shape-outside: margin-box;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 500;
+}
+.button-color-dark-pink:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F9A8D4;
+}
+.button-color-dark-pink:active{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px #F9A8D4;
+}
+.button-color-dark-pink:focus{
+    display: inline-block;
+    animation: pulse;
+    animation-duration: 0.3s;
+}
+/*Title selection*/
+h1::selection{
+    background-color: #F3F4F6;
+}
+h2::selection{
+    background-color: #F3F4F6;
+}
+h3::selection{
+    background-color: #F3F4F6;
+}
+h4::selection{
+    background-color: #F3F4F6;
+}
+h5::selection{
+    background-color: #F3F4F6;
+}
+h6::selection{
+    background-color: #F3F4F6;
+}
+/*Title Light gray*/
+.h1-color-light-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light red*/
+.h1-color-light-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light yellow*/
+.h1-color-light-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light green*/
+.h1-color-light-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light blue*/
+.h1-color-light-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light purple*/
+.h1-color-light-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light pink*/
+.h1-color-light-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark gray*/
+.h1-color-dark-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark red*/
+.h1-color-dark-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark yellow*/
+.h1-color-dark-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark green*/
+.h1-color-dark-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark blue*/
+.h1-color-dark-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark purple*/
+.h1-color-dark-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark pink*/
+.h1-color-dark-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title2 Light gray*/
+.h2-color-light-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light red*/
+.h2-color-light-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light yellow*/
+.h2-color-light-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light green*/
+.h2-color-light-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light blue*/
+.h2-color-light-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light purple*/
+.h2-color-light-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light pink*/
+.h2-color-light-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark gray*/
+.h2-color-dark-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark red*/
+.h2-color-dark-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark yellow*/
+.h2-color-dark-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark green*/
+.h2-color-dark-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark blue*/
+.h2-color-dark-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark purple*/
+.h2-color-dark-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark pink*/
+.h2-color-dark-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title3 Light gray*/
+.h3-color-light-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light red*/
+.h3-color-light-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light yellow*/
+.h3-color-light-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light green*/
+.h3-color-light-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light blue*/
+.h3-color-light-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light purple*/
+.h3-color-light-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light pink*/
+.h3-color-light-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark gray*/
+.h3-color-dark-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark red*/
+.h3-color-dark-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark yellow*/
+.h3-color-dark-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark green*/
+.h3-color-dark-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark blue*/
+.h3-color-dark-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark purple*/
+.h3-color-dark-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark pink*/
+.h3-color-dark-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title4 Light gray*/
+.h4-color-light-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light red*/
+.h4-color-light-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light yellow*/
+.h4-color-light-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light green*/
+.h4-color-light-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light blue*/
+.h4-color-light-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light purple*/
+.h4-color-light-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title Light pink*/
+.h4-color-light-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark gray*/
+.h4-color-dark-gray{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #6B7280;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark red*/
+.h4-color-dark-red{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EF4444;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark yellow*/
+.h4-color-dark-yellow{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F59E0B;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark green*/
+.h4-color-dark-green{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #10B981;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark blue*/
+.h4-color-dark-blue{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3B82F6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark purple*/
+.h4-color-dark-purple{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #8B5CF6;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Title dark pink*/
+.h4-color-dark-pink{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EC4899;
+    font-family: Open Sans;
+    animation: bounceIn;
+    animation-duration: 1.7s;
+}
+/*Paragraph light and em*/
+.p-color-light{
+    color: #222;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.p-color-light-em{
+    color: rgb(87, 87, 87);
+}
+/*Paragraph dark and em*/
+.p-color-dark{
+    color: #fcfcfc;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.p-color-dark-em{
+    color: rgb(204, 204, 204);
+}
+/*İnput light Form*/
+.input-light-email{
+    color:#333;
+    background:#F9FAFB;
+    border: 2px solid #F3F4F6;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-top: 5.5px;
+    padding-right: 5px;
+    padding-bottom: 5.5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+.input-light-email:focus{
+    box-shadow: inset 0px 0 0px 2px #fff;
+    animation:bounceIn;
+    animation-duration: 1s;
+}
+/*İnput dark form*/
+.input-dark-email{
+    color:#f9f9f9;
+    background:#111827;
+    border: 2px solid #2b2f35;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-top: 5.5px;
+    padding-right: 5px;
+    padding-bottom: 5.5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+.input-dark-email:focus{
+    box-shadow: inset 0px 0 0px 2px #9CA3AF;
+    animation:bounceIn;
+    animation-duration: 1s;
+}
+
+/*İnput light Form*/
+.input-light-text{
+    color:#333;
+    background:#F9FAFB;
+    border: 2px solid #F3F4F6;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-top: 5.5px;
+    padding-right: 5px;
+    padding-bottom: 5.5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+.input-light-text:focus{
+    box-shadow: inset 0px 0 0px 2px #fff;
+    animation:bounceIn;
+    animation-duration: 1s;
+}
+/*İnput dark form*/
+.input-dark-text{
+    color:#f9f9f9;
+    background:#111827;
+    border: 2px solid #2b2f35;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-top: 5.5px;
+    padding-right: 5px;
+    padding-bottom: 5.5px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+.input-dark-text:focus{
+    box-shadow: inset 0px 0 0px 2px #9CA3AF;
+    animation:bounceIn;
+    animation-duration: 1s;
+}
+/*Check Box (!)Beta*/
+    .LimeVolume-checkbox .checkmark {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #A7F3D0;
+    display: inline-block;
+    border-radius: 100px;
+    background: #34D399 url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/1200px-White_check.svg.png) center/1250% no-repeat;
+    transition: background-size 0.3s ease-out;
+  }
+.label{
+    color: #222;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+  .LimeVolume-checkbox input:checked + .checkmark {
+    background-size: 50%;
+    transition: background-size 0.25s cubic-bezier(0.7, 0, 0.18, 1.24);
+  }
+  
+  .LimeVolume-checkbox input {
+    display: none;
+  }
+/*Ol light*/
+.ol-color-light{
+    color: #3d1b06;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+/*Ol Dark*/
+.ol-color-dark{
+    color: #c0bebd;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+/*Li light*/
+.li-color-light{
+    color: #222;
+    font-style: italic;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+/*Li Dark*/
+.li-color-dark{
+    font-style: italic;
+    color: rgb(226, 226, 226);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.li-color-light::selection{
+    background: #FEF3C7;
+}
+.li-color-dark::selection{
+    background: #FEF3C7;
+}
+.p-color-light::selection{
+    background: #FEF3C7;
+}
+.p-color-dark::selection{
+    background: #FEF3C7;
+}
+.p-color-light-em::selection{
+    background: #fff6d4;
+}
+.p-color-dark-em::selection{
+    background: #fff6d4;
+}
+/*ul light*/
+.ul-color-light{
+    color: #3d1b06;
+    font-style: italic;
+    list-style:circle;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+/*ul Dark*/
+.ul-color-dark{
+    font-style: italic;
+    color: #c0bebd;
+    list-style:circle;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.Screenbox-iframe{
+    border: none;
+    border-radius:6px 6px;
+    outline: none;
+}
+.Screenbox-iframe:focus{
+box-shadow: 0px 0 0px 5px #ffd3e5;
+}
+.Screenbox-iframe:hover{
+    box-shadow: 0px 0 0px 5px #ececec;
+}
+.Screenbox-dark-iframe{
+    border: none;
+    border-radius:6px 6px;
+    outline: none;
+}
+.Screenbox-dark-iframe:focus{
+box-shadow: 0px 0 0px 5px #ffd3e5;
+}
+.Screenbox-dark-iframe:hover{
+    box-shadow: 0px 0 0px 5px #ececec;
+}
+.a-color-light{
+    text-decoration: none;
+    color: #D97706;
+    border-top: none;
+    border-left: none;
+    font-weight: 600;
+    border-right: none;
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.a-color-dark{
+    text-decoration: none;
+    color: #FDE68A;
+    border-top: none;
+    border-left: none;
+    font-weight: 600;
+    border-right: none;
+    font-size: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+.img-color-light{
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    color: rgb(59, 59, 51);
+}
+.img-color-dark{
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    color: rgb(59, 59, 51);
+}
+.pre-color-light{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 13px;
+    color: #111827;
+}
+.pre-color-light:hover{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 13px;
+    color: #212e4b;
+    animation:pulse; 
+    animation-duration: 2.5s;
+}
+.pre-color-light::selection{
+    background:#cbf5e5;
+}
+.pre-color-dark{
+    font-family: monospace;
+    font-style: italic;
+    font-size: 13px;
+    color: #dadada;
+}
+.address-color{
+    font-family: monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: #222;
+}
+.address-color::selection{
+    background:#ecb189;
+}
